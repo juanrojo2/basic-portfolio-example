@@ -42,6 +42,7 @@
 .social-icons-container i{
     font-size:3.5rem;
     margin: 1rem;
+    transition: color 300ms ease-in;
 }
 .social-icons-container  i:hover{
     color: rgb(255, 72, 0);

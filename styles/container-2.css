@@ -5,8 +5,6 @@
     height: 100%;
     left: 25%;
     padding: 4rem;
-}
-.container-2 > p{
     font-size: 1.4rem;
     color: rgb(224, 224, 224);
 }
@@ -17,14 +15,191 @@
 .contact{
     width: 100%;
 }
+.about{
+    padding: 2rem;
+    border-bottom: 5px solid rgba(10, 10, 10, 0.541);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.about h1{
+     font-size: 4.5rem;
+     font-weight: 900;
+     text-transform: uppercase;
+     margin-bottom: 2rem;
+}
+.about p{
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.skills{
+    padding: 2rem;
+    border-bottom: 5px solid rgba(10, 10, 10, 0.541);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.skills h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color:  rgb(29, 26, 26);
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 3rem;
+    box-shadow: 7px 7px 2px 6px #363636;
+}
+.skill h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+ }
+.skill p{
+   text-align: center;
+   font-size: 1.5rem;
+   margin-bottom: 2rem;
+}
+.experience{
+    padding: 2rem;
+    border-bottom: 5px solid rgba(10, 10, 10, 0.541);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.experience h2{
+    font-size: 4.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.experience h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    opacity: 0.7;
+}
+.experience li{
+    list-style-type: circle;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0.3rem;
+    width: 90%;
+    margin: 0 auto 2rem auto;
+}
+.experience h4{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+.experience p{
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 .projects{
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    border-bottom: 5px solid rgba(10, 10, 10, 0.541);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.projects h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.projects a{
+    color: rgb(224, 224, 224);
 }
 .project{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 .project img{
-    width: 75%;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 5rem;
+}
+.project-description{
+    width: 100%;
+    padding: 2rem;
+}
+.project-description h2,
+.project-description p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.see-more-btn{
+    width: 50%;
+    height: 4rem;
+    background-color: rgba(10, 10, 10, 0.541);
+    margin: 2rem auto;
+    border-radius: 5rem;
+    text-align: center;
+    transition: all 400ms;
+}
+.see-more-btn a{
+    display: block;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+.see-more-btn:hover{
+    background-color: black;
+}
+.contact h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.contact{
+    padding: 2rem;
+    border-bottom: 5px solid rgba(10, 10, 10, 0.541);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.contact form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact label{
+    font-size: 1.8rem;
+}
+.contact input,
+.contact button{
+    border-radius: 0.5rem;
+    height: 3rem;
+}
+.contact textarea{
+    border-radius: 0.5rem;
+    height: 6rem;
+}
+.contact button{
+    background-color: rgba(10, 10, 10, 0.397);
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 400ms;
+    border: none;
+}
+.contact button:hover{
+    background-color: rgba(10, 10, 10, 0.774);
 }
