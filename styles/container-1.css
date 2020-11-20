@@ -8,10 +8,6 @@
     flex-direction: column;
     align-items: center;
 }
-/* .container-1 > p{
-    color: rgb(5, 5, 5);
-    font-size: 1.35rem;
-} */
 .image-profile > img{
     width: 18rem;
     height: 18rem;
