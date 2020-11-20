@@ -143,6 +143,7 @@
 .project-description p{
     text-align: center;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 .see-more-btn{
     width: 50%;
@@ -203,6 +204,82 @@
 .contact button:hover{
     background-color: rgb(0, 0, 0);
 }
+@media screen and (min-width: 1921px){
+    .about h1,
+    .skills h1,
+    .experience h1,
+    .projects h1,
+    .contact h1{
+        font-size: 6rem;
+    }
+    .experience h3{
+        font-size: 2.7rem;
+    }
+    .about p,
+    .skill p,
+    .experience p,
+    .project-description h2,
+    .project-description p,
+    .contact button,
+    .contact label{
+        font-size: 2.5rem;
+    }
+    .skill h2{
+        font-size: 3.2rem;
+     }
+     .experience h4{
+        font-size: 2.8rem;
+    }
+    .experience p{
+        font-size: 2.5rem;
+    }
+    .see-more-btn a{
+        padding: 0;
+        font-size: 2.5rem;
+    }
+    .contact button{
+        font-size: 3rem;
+        height: 4rem;
+    }
+} 
+@media screen and (min-width: 1600px) and (max-width: 1920px){
+    .about h1,
+    .skills h1,
+    .experience h1,
+    .projects h1,
+    .contact h1{
+        font-size: 4.3rem;
+    }
+    .experience h3{
+        font-size: 2.3rem;
+    }
+    .about p,
+    .skill p,
+    .experience p,
+    .project-description h2,
+    .project-description p,
+    .contact button,
+    .contact label{
+        font-size: 2rem;
+    }
+    .skill h2{
+        font-size: 2.8rem;
+     }
+     .experience h4{
+        font-size: 2.2rem;
+    }
+    .experience p{
+        font-size: 2rem;
+    }
+    .see-more-btn a{
+        padding: 0.3rem;
+        font-size: 2rem;
+    }
+    .contact button{
+        font-size: 2rem;
+        height: 3.5rem;
+    }
+} 
 @media screen and (max-width: 1142px){
     .container-2{
         width: 65%;
@@ -260,10 +337,10 @@
         text-align: center;
     }
     .about p,
-    .skills p
+    .skill p,
     .experience p,
-    .projects p,
-    .contact p{
+    .project-description h2,
+    .project-description p{
         font-size: 1.4rem;
     }
     .skills{
@@ -316,10 +393,10 @@
         font-size: 1.3rem;
     }
     .about p,
-    .skills p
+    .skill p,
     .experience p,
-    .projects p,
-    .contact p{
+    .project-description h2,
+    .project-description p{
         font-size: 1.3rem;
     }
     .skill{
