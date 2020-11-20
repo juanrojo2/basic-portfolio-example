@@ -1,0 +1,30 @@
+.container-2{
+    position: relative;
+    background-color: rgb(43, 38, 38);
+    width:75%;
+    height: 100%;
+    left: 25%;
+    padding: 4rem;
+}
+.container-2 > p{
+    font-size: 1.4rem;
+    color: rgb(224, 224, 224);
+}
+.about,
+.skills,
+.experience,
+.projects,
+.contact{
+    width: 100%;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+}
+.project img{
+    width: 75%;
+}
